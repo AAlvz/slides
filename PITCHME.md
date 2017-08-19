@@ -1,6 +1,6 @@
 ---
 
- ### Infrastructure
+ ### Master
  ### User Manual
  ### (@aalvz)
 
@@ -10,7 +10,7 @@
 
  ### Description
 
-   - Explained steps to reproduce infrastructure.
+   - Explained steps to reproduce master.
    - Examples
 
  +++
@@ -18,7 +18,7 @@
  ### What to expect
 
  ```
- cd tinker/infrastructure
+ cd tinker/slides
  ```
 
 ---
