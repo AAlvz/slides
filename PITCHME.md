@@ -1,7 +1,7 @@
 ---
 
  ### Aprender Git
- ### (@aalvz)
+ ### (@_aalvz)
 
  <span style="color:gray">Tinkerware</span>
 
