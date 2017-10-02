@@ -32,44 +32,44 @@
 
   # Git
 
----
++++
 
   ### Git
 
   ![Git](https://camo.githubusercontent.com/67de5c81cc8c4207059c239ad08454188b9d0ed3/687474703a2f2f6368726973706562626c652e636f6d2f706f7374732f31312f6769742d72656c6967696f6e2e6a7067)
 
----
++++
 
  ### Qué es?
  ![git](https://images-cdn.9gag.com/photo/aynmL0X_700b.jpg)
 
----
++++
 
  ### Qué es?
 
  - Es una manera de controlar versiones de archivos.
 
----
++++
 
  ### Para?
 
  ![version con what?](http://smutch.github.io/VersionControlTutorial/_images/vc-xkcd.jpg)
 
----
++++
 
 
  ### Para? Tener super poderes!
 
  1. Desempeño.
 
----
++++
 
  ### Para? Tener super poderes!
 
  1. Desempeño.
  2. Rastreo.
 
----
++++
 
  ### Para? Tener super poderes!
 
@@ -77,7 +77,7 @@
  2. Rastreo. Cambios e historia
  3. Flexibilidad. Branches, Merges, Experimentacion. 
 
----
++++
 
  ### Para? Tener super poderes!
 
@@ -86,7 +86,7 @@
  3. Flexibilidad. Branches, Merges, Experimentacion.
  4. Colaboracion
 
----
++++
 
  ### Para? Tener super poderes!
 
