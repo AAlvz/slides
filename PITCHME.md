@@ -1,6 +1,6 @@
 ---
 
- ### Aprender Git
+ ### Curso de Git
  ### (@_aalvz)
 
  <span style="color:gray">Tinkerware</span>
@@ -14,6 +14,11 @@
  - Historia
  - Estructura
  - Ejercicio!
+
++++
+
+ ### Contenido
+ 
  - Comandos
  - Flujo
  - Hooks
@@ -22,11 +27,16 @@
 
 ---
 
- ### Antes de empezar.
+ ### Pre Commit.
+ (Antes de Empezar)
 
- Buscamos tener un mejor flujo al programar.
+ Buscamos tener un mejor flujo al programar?
 
  Que es lo minimo necesario para poder codificar?
+
+---
+
+ Un Repositorio
 
 ---
 
@@ -48,6 +58,35 @@
  ### Qué es?
 
  - Es una manera de controlar versiones de archivos.
+
++++
+ ### Qué es?
+
+ - The stupid content tracker.
+
+ ```
+ man git
+ ```
+
++++
+
+```
+GIT(1)                              Git Manual                            GIT(1)
+
+NAME
+       git - the stupid content tracker
+
+SYNOPSIS
+       git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p|--paginate|--no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+```
+
+@[1]
+@[3-4]
+@[6-11]
 
 +++
 
