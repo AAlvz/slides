@@ -153,11 +153,19 @@
  ### Git Branches
 
  ![Git branches](assets/gitnormalbranches.png)
+ ![Git Branches](https://www.visualstudio.com/en-us/docs/integrate/api/git/_img/ahead-behind.png)
 ---
 
  ### Git Branches
 
  ![Git branches](assets/gitbranches.png)
+ ![Git branches](https://buddy.works/data/blog/_images/feature-branch.png)
+
+---
+ ### Git Branches
+
+ ![Git branches](assets/gitbranches.png)
+ ![Git branches](https://buddy.works/data/blog/_images/gitflow.png)
 
 ---
 
