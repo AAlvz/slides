@@ -1,4 +1,5 @@
-#theme: moon
+theme: white
 logo: assets/logo.png
 slide-number: true
 footnote: "© 2017 TinkerWare."
+transition: convex
