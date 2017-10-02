@@ -153,7 +153,7 @@ SYNOPSIS
 
  ![Git Areas](https://git-scm.com/images/about/index1@2x.png)
 
----
++++
 
  ### Git Areas
 
@@ -161,7 +161,52 @@ SYNOPSIS
 
 ---
 
+  ### Exercise!! Damn!
+
+---
+
   ### Exercise!!
+
+  What will you need?
+
+  - Confidence.
+  - Google
+  - Commands
+
+  ```
+  man git
+  git help
+  git commit
+  git branch
+  git merge
+  git push
+  ...
+  ```
+  @[1]
+  @[2]
+  @[3]
+  @[4]
+  @[5]
+  @[6]
+
++++
+
+ 1. `index.html`
+
++++
+
+ 2. Convertir en Repositorio.
+
++++
+
+ 3.
+ ```
+ git status
+ ```
+ 
++++
+
+ 4. Commit!
 
 ---
 
@@ -170,6 +215,15 @@ SYNOPSIS
   ![commits](https://imgs.xkcd.com/comics/git_commit.png)
 
 ---
+
+ 5. Push!
+
+---
+
+ 6. Boom!
+
+---
+
 
   ### Git commands flow
 
