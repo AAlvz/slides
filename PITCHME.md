@@ -32,7 +32,7 @@
 ---
 
  ### Qué es?
- !(git)[https://images-cdn.9gag.com/photo/aynmL0X_700b.jpg]
+ ![git](https://images-cdn.9gag.com/photo/aynmL0X_700b.jpg)
 
 ---
 
