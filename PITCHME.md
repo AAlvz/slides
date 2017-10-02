@@ -152,6 +152,35 @@
 
 ---
 
+ ### Git Hooks
+ 
+ `.git/hooks`
+
+ Locales:
+ - Verificar el mensaje de commit
+ - Pre commit
+ - Pre Push
+ - pre rebase
+
+---
+ ### Git Hooks
+ 
+ `.git/hooks`
+
+ En server:
+ - Update
+ - Pre Receive
+ - Post Receive
+
+---
+
+ ### Git Tags
+
+ `git tag - a V1.0 -m "esta es la versoin 1"`
+ `git push origin <tag>`
+
+---
+
   ### Otros comandos utiles
 
   1. `git blame`
@@ -172,6 +201,5 @@
   [Cheat Sheet by Git Tower](https://www.git-tower.com/blog/git-cheat-sheet/)
   [Precommit hooks tips](http://codeinthehole.com/tips/tips-for-using-a-git-pre-commit-hook/)
   [Learn git branching](https://learngitbranching.js.org/)
-  
 
 ---
