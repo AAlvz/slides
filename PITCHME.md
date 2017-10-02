@@ -9,7 +9,16 @@
 
  ### Contenido
 
- - 
+ - Pre Commit. (Antes de empezar)
+ - Que? y Para que?
+ - Historia
+ - Estructura
+ - Ejercicio!
+ - Comandos
+ - Flujo
+ - Hooks
+ - Tags
+ - Otros
 
 ---
 
