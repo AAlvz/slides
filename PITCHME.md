@@ -245,6 +245,9 @@ SYNOPSIS
 
  ### Git Branches
 
+ # Branch early, and branch often
+ # Ramifica pronto y seguido
+
  ![Git branches](assets/gitnormalbranches.png)
  ![Git Branches](https://www.visualstudio.com/en-us/docs/integrate/api/git/_img/ahead-behind.png)
 ---
