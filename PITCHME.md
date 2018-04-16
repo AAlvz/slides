@@ -46,7 +46,7 @@
 
  ### The Architecture
 
- ![Arch](https://photos.app.goo.gl/iJgDB8EfAh63bkhf1)
+ ![Arch](https://imgur.com/DdPP93s)
 
 +++
 
@@ -59,6 +59,8 @@ Only one master repo which is modified via pull request from the forks
 +++
 
  ### Workflow
+
+ ![Workflow](https://imgur.com/XR5OVTm)
 
 +++
 
