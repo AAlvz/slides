@@ -46,7 +46,7 @@
 
  ### The Architecture
 
- ![Arch](https://imgur.com/DdPP93s)
+ ![Arch](https://i.imgur.com/0emcB3d.jpg)
 
 +++
 
@@ -104,7 +104,7 @@ Everything ready to grow
 
   ### Site connection
 
-  ![](https://imgur.com/Tj9zHWj)
+  ![](https://i.imgur.com/kgA0uGd.jpg)
 
 +++
 
