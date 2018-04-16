@@ -38,9 +38,15 @@
 
 +++
 
- ### The Architecture (add image)
+ ### The Architecture
 
  Ansible -> Automatic Provision -> Envs (Dev/QA/Prod) -> Debian 8.0 -> Security (users/paths) -> Install packages (node,mongo....) -> Run App
+
++++
+
+ ### The Architecture
+
+ ![Arch](https://photos.app.goo.gl/iJgDB8EfAh63bkhf1)
 
 +++
 
@@ -49,6 +55,10 @@
  DevEnv (Server or Vagrant) -> Every Dev w/ fork -> Branches on features -> Push -> Triggers tests with CircleCI -> Triggers tests in disposable QA env -> if passed push to production with git server -> hooks to update services and log changes. 
 
 Only one master repo which is modified via pull request from the forks
+
++++
+
+ ### Workflow
 
 +++
 
@@ -87,6 +97,10 @@ Everything ready to grow
   - Automated Security (Users/Paths/SSH Keys)
   - Nginx routes
   - Automated Database creation and config depending on the env
+
++++
+
+  ### Site connection
 
 +++
 
