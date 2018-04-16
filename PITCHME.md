@@ -25,6 +25,12 @@
 
 ---
 
+  # Useful Links
+  Repo - fork - https://github.com/AAlvz/wize-devops-alfonso
+  CircleCI - https://circleci.com/gh/AAlvz
+
++++
+
  ### Requirements
   - Define CI/CD Pipeline
   - DevOps to the test
@@ -108,6 +114,14 @@ Everything ready to grow
 
 +++
 
+  ### Useful Links
+  Production -> http://206.189.120.244/health
+  DevCloud -> http://206.189.29.118/health
+  DBTest -> 206.189.19.176
+  DBProd -> 206.189.23.197
+
++++
+
 Future
 
  - More tests. Lint and stuff
@@ -121,10 +135,11 @@ Demo On boarding
 
 Some mantras
 
+ - Early Optimization is the root of all evil
  - Branch early, and branch often
  - Error DB
  - One step build and daily
  - fix before new
  - Test it all
- - 
+ - If you have a mess, you'll automate a mess
 ---
