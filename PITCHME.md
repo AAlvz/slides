@@ -1,318 +1,112 @@
 ---
 
- ### Curso de Git
+ ### CI / Envs
  ### (@_aalvz)
 
- <span style="color:gray">Tinkerware</span>
+ <span style="color:gray">aalvz</span>
 
 ---
 
- ### Contenido
+ ### Content
 
- - Pre Commit. (Antes de empezar)
- - Que? y Para que?
- - Historia
- - Estructura
- - Ejercicio!
+ - Requirements
+ - Proposed solution
+ - Architecture & Flow
+ - Techs
 
 +++
 
- ### Contenido
+ ### Content
  
- - Comandos
- - Flujo
- - Hooks
- - Tags
- - Otros
+ - Covered Area
+ - Demo & OnBoarding
+ - Future Work
+ - Q/A
 
 ---
 
- ### Pre Commit.
- (Antes de Empezar)
-
- Buscamos tener un mejor flujo al programar?
-
- Que es lo minimo necesario para poder codificar?
-
----
-
- Un Repositorio
-
----
-
-  # Git
+ ### Requirements
+  - Define CI/CD Pipeline
+  - DevOps to the test
 
 +++
 
-  ### Git
+ ### Proposed Soultion
 
-  ![Git](https://camo.githubusercontent.com/67de5c81cc8c4207059c239ad08454188b9d0ed3/687474703a2f2f6368726973706562626c652e636f6d2f706f7374732f31312f6769742d72656c6967696f6e2e6a7067)
-
-+++
-
- ### Qué es?
- ![git](https://images-cdn.9gag.com/photo/aynmL0X_700b.jpg)
+ - Infrastructure as Code. 
+ - Disposable/Inmutable Infrastructure
 
 +++
 
- ### Qué es?
+ ### The Architecture (add image)
 
- - Es una manera de controlar versiones de archivos.
-
-+++
- ### Qué es?
-
- - The stupid content tracker.
-
- ```
- man git
- ```
+ Ansible -> Automatic Provision -> Envs (Dev/QA/Prod) -> Debian 8.0 -> Security (users/paths) -> Install packages (node,mongo....) -> Run App
 
 +++
 
-```
-GIT(1)                              Git Manual                            GIT(1)
+ ### Workflow
 
-NAME
-       git - the stupid content tracker
+ DevEnv (Server or Vagrant) -> Every Dev w/ fork -> Branches on features -> Push -> Triggers tests with CircleCI -> Triggers tests in disposable QA env -> if passed push to production with git server -> hooks to update services and log changes. 
 
-SYNOPSIS
-       git [--version] [--help] [-C <path>] [-c <name>=<value>]
-           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
-           [-p|--paginate|--no-pager] [--no-replace-objects] [--bare]
-           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
-           <command> [<args>]
-```
-
-@[1]
-@[3-4]
-@[6-11]
+Only one master repo which is modified via pull request from the forks
 
 +++
 
- ### Para?
-
- ![version con what?](http://smutch.github.io/VersionControlTutorial/_images/vc-xkcd.jpg)
-
-+++
-
-
- ### Para? Tener super poderes!
-
- 1. Desempeño.
-
-+++
-
- ### Para? Tener super poderes!
-
- 1. Desempeño.
- 2. Rastreo.
-
-+++
-
- ### Para? Tener super poderes!
-
- 1. Desempeño. Flujos. 
- 2. Rastreo. Cambios e historia
- 3. Flexibilidad. Branches, Merges, Experimentacion. 
-
-+++
-
- ### Para? Tener super poderes!
-
- 1. Desempeño. Escalamiento (Hooks, grandes proyectos...)
- 2. Rastreo. Cambios e historia
- 3. Flexibilidad. Branches, Merges, Experimentacion.
- 4. Colaboracion
-
-+++
-
- ### Para? Tener super poderes!
-
- 1. Desempeño. También offline. 
- 2. Rastreo. Cambios e historia
- 3. Flexibilidad. Branches, Merges, Experimentacion.
- 4. Colaboracion
- 5. Seguridad y Backups. SHA1
-
----
-
-  ### Historia
-
-  - Linus Torvalds
-  - 2005
-  - Gitception
-  - Distribuido. Puede ser un server out of the box.
-  - "Unpleasent Person"
-  - `man git`
-  - Junio Hamano
-
----
-
- ### Git Areas
-
- ![Git Areas](https://git-scm.com/images/about/index1@2x.png)
-
-+++
-
- ### Git Areas
-
- ![Git Areas](https://asanzdiego.github.io/curso-git-github-markdown-2016/slides/img/git-all-areas-estrecho-bis.png)
-
----
-
-  ### Exercise!! Damn!
-
----
-
-  ### Exercise!!
-
-  What will you need?
-
-  - Confidence.
-  - Google
-  - Commands
-
-  ```
-  man git
-  git help
-  git commit
-  git branch
-  git merge
-  git push
-  ...
-  ```
-  @[1]
-  @[2]
-  @[3]
-  @[4]
-  @[5]
-  @[6]
-
-+++
-
- 1. `index.html`
-
-+++
-
- 2. Convertir en Repositorio.
-
-+++
-
- 3.
- ```
- git status
- ```
- 
-+++
-
- 4. Commit!
-
----
-
-  ### Git Commits
-
-  ![commits](https://imgs.xkcd.com/comics/git_commit.png)
-
----
-
- 5. Push!
-
----
-
- 6. Boom!
-
----
-
-
-  ### Git commands flow
-
-  ![flow](https://camo.githubusercontent.com/e5bc854447ea2ca92b375117294007a1c496ac36/68747470733a2f2f7777772e73696c766572706561732e6f72672f696d616765732f6769745f657665727468696e675f69735f6c6f63616c2e706e67)
-
----
-
- ### Git Commands Flow
-
- ![Git Commands](https://camo.githubusercontent.com/6d599db858665e9813a8103f356678c8c5e4e3e4/687474703a2f2f6934332e74696e797069632e636f6d2f32726d773769782e706e67)
- 
----
-
- ### Git Daily
- ![](https://image.slidesharecdn.com/gameplanapp-simple-daily-git-workflow1-120403121618-phpapp01/95/simple-daily-workflow-with-git-1-728.jpg?cb=1333455417)
-
----
-
-
- ### Git Branches
-
- # Branch early, and branch often
- # Ramifica pronto y seguido
-
- ![Git branches](assets/gitnormalbranches.png)
- ![Git Branches](https://www.visualstudio.com/en-us/docs/integrate/api/git/_img/ahead-behind.png)
----
-
- ### Git Branches
-
- ![Git branches](assets/gitbranches.png)
- ![Git branches](https://buddy.works/data/blog/_images/feature-branch.png)
-
----
- ### Git Branches
-
- ![Git branches](assets/gitbranches.png)
  ![Git branches](https://buddy.works/data/blog/_images/gitflow.png)
 
----
-
- ### Git Hooks
++++
  
- `.git/hooks`
+### Techs
 
- Locales:
- - Verificar el mensaje de commit
- - Pre commit
- - Pre Push
- - pre rebase
+  - Emacs
+  - Node
+  - Mongo
+  - CircleCi
+  - Mocha
+  - Ansible
+  - Nginx
+  - Vagrant
+  - Monit
+  - Passenger
+  - SSH
+  - Bash
+  - Git
 
----
- ### Git Hooks
- 
- `.git/hooks`
++++
 
- En server:
- - Update
- - Pre Receive
- - Post Receive
+  ### Covered Area
 
----
+Everything ready to grow
 
- ### Git Tags
+  - Automated Running app to any environment (clone, express, endpoints, dependencies, test, start)
+  - CI/CD Pipeline -> Ansible + CircleCI + Mocha + Git(Server/Branches/Hooks) + Bash (Dev-QA-Prod)
+  - No downtime under labor. First version stable.
+  - Tests (Infra/Unit/Functional)
+  - Monitoring services.
+  - Automated Prod env based on Envs
+  - Automated Security (Users/Paths/SSH Keys)
+  - Nginx routes
+  - Automated Database creation and config depending on the env
 
- `git tag - a V1.0 -m "esta es la versoin 1"`
- `git push origin <tag>`
++++
 
----
+Future
 
-  ### Otros comandos utiles
+ - More tests. Lint and stuff
+ - Automated full tests beginning with full infrastructure. 
 
-  1. `git blame`
-  2. git log --graph
-  3. git stash
-  4. git rebase
++++
 
----
+Demo On boarding
 
-  ### Resolviendo problemas en Git
-  ![Solving](https://pbs.twimg.com/media/BjSirHmCAAArx_l.png:large)
++++ 
 
----
+Some mantras
 
- ### Links utiles
-
-  [Cheat Sheet by GitHub](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)
-  [Cheat Sheet by Git Tower](https://www.git-tower.com/blog/git-cheat-sheet/)
-  [Precommit hooks tips](http://codeinthehole.com/tips/tips-for-using-a-git-pre-commit-hook/)
-  [Learn git branching](https://learngitbranching.js.org/)
-
+ - Branch early, and branch often
+ - Error DB
+ - One step build and daily
+ - fix before new
+ - Test it all
+ - 
 ---
