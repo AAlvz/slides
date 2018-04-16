@@ -60,7 +60,7 @@ Only one master repo which is modified via pull request from the forks
 
  ### Workflow
 
- ![Workflow](https://imgur.com/XR5OVTm)
+ ![Workflow](https://imgur.com/4IbiyHX)
 
 +++
 
@@ -103,6 +103,8 @@ Everything ready to grow
 +++
 
   ### Site connection
+
+  ![](https://imgur.com/Tj9zHWj)
 
 +++
 
